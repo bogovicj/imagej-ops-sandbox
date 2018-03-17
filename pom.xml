@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>imagej-ops-sandbox</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <parent>
+  	<groupId>net.imagej</groupId>
+  	<artifactId>pom-imagej</artifactId>
+  	<version>15.5.0</version>
+  </parent>
+  <repositories>
+    <repository>
+  	  <id>imagej.public</id>
+	  <url>https://maven.imagej.net/content/groups/public</url>
+	</repository>
+  </repositories>
+  <dependencies>
+  	<dependency>
+  		<groupId>net.imagej</groupId>
+  		<artifactId>imagej</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>net.imagej</groupId>
+  		<artifactId>imagej-ops</artifactId>
+  	</dependency>
+  </dependencies>
+
+</project>
